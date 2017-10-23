@@ -79,14 +79,16 @@
     <Content Include="Fnts\Fonts.css" />
     <Content Include="Html\Client.html" />
     <Content Include="Html\Team.html" />
+    <Content Include="Imgs\ana.png" />
+    <Content Include="Imgs\carlos.png" />
+    <Content Include="Imgs\joao.png" />
+    <Content Include="Imgs\marcia.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Imgs\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

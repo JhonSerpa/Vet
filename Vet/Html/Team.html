@@ -10,7 +10,6 @@
     <link href="../Fnts/Fonts.css" rel="stylesheet" type="text/css" media="all" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-
 </head>
 <body>
     <!-- NavBar-->
@@ -26,6 +25,8 @@
                     <li><a href="#" accesskey="3" title="">Specification</a></li>
                     <li><a href="#" accesskey="4" title="">Developer</a></li>
                     <li><a href="Team.html" accesskey="5" title="">Team</a></li>
+                    <li><a href="#" accesskey="5" title="">Timelines</a></li>
+
                 </ul>
             </div>
         </div>
@@ -35,17 +36,147 @@
     <div id="featured-wrapper">
         <div class=" container">
             <h3>Para ver a Time Sheet da nossa equipa clique no botão abaixo</h3>
-            <button type="button" class="button" onclick="doSmth()">Time Sheet</button>
-            <script type="text/javascript">
-                function doSmth() {
-                    alert("tt");
-                }
-            </script>
+            <button type="button" class="button" onclick="openInNewTab('www.test.com');">Time Sheet</button>
         </div>
 
 
     </div>
 
+    <!--Photo of the team members + email-->
+    <div id="featured-wrapper">
+            <h3>Equipa</h3>
+            
+            <div class="w3-row-padding" style="margin-top:64px">
+                <div >
+                    <div class="w3-card-2 w3-center">
+                        <img src="../Imgs/ana.png" width="200" height="200"/>
+                        <div class="w3-container">
+                            <h3>Ana Almeida</h3>
+                            <p class="w3-opacity">Team Manager</p>
+                            <p></p>
+                            <p><button class="w3-button w3-light-grey w3-block">anaa@ua.pt</button></p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+            <div class="w3-row-padding" style="margin-top:64px">
+                <div >
+                    <div class="w3-card-2 w3-center">
+                        <img src="../Imgs/carlos.png" width="200" height="200" />
+                        <div class="w3-container">
+                            <h3>Carlos Arinto</h3>
+                            <p class="w3-opacity">Team Manager</p>
+                            <p></p>
+                            <p><button class="w3-button w3-light-grey w3-block">carlos.tiago@ua.pt</button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-row-padding" style="margin-top:64px">
+                <div >
+                    <div class="w3-card-2 w3-center">
+                        <img src="../Imgs/joao.png" width="200" height="200" />
+                        <div class="w3-container">
+                            <h3>João Serpa</h3>
+                            <p class="w3-opacity">Team Manager</p>
+                            <p></p>
+                            <p><button class="w3-button w3-light-grey w3-block">joao.serpa@ua.pt</button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="w3-row-padding" style="margin-top:64px">
+                <div >
+                    <div class="w3-card-2 w3-center">
+                        <img src="../Imgs/marcia.png" width="200" height="200" />
+                        <div class="w3-container">
+                            <h3>Márcia Cardoso</h3>
+                            <p class="w3-opacity">Team Manager</p>
+                            <p></p>
+                            <p><button class="w3-button w3-light-grey w3-block">marciaccardoso@ua.pt</button></p>
+                        </div>
+                    </div>
+            </div>
+                <!--
+
+                        <!-- Team Section
+        <div class="w3-container" style="padding:128px 16px" id="team">
+          <h3 class="w3-center">A Nossa Equipa</h3>
+          <p class="w3-center w3-large">HomeSync é desenvolvido por</p>
+          <div class="w3-row-padding" style="margin-top:64px">
+            <div class="w3-col l4 m6 w3-margin-bottom">
+              <div class="w3-card-2 w3-center">
+                <img src="images/bernardo.png" width="200" height="200" alt="Bernardo" >
+                <div class="w3-container">
+                  <h3>Bernardo Domingues</h3>
+                  <p class="w3-opacity">Team Manager</p>
+                  <p></p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> bernardo.domingues@ua.pt</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="w3-col l4 m6 w3-margin-bottom">
+              <div class="w3-card-2 w3-center">
+                <img src="images/salome.jpg" width="200" height="200" alt="Salomé" >
+                <div class="w3-container">
+                  <h3>Maria Lopes</h3>
+                  <p class="w3-opacity">Documentation Manager</p>
+                  <p></p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> m.lopes1@ua.pt</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="w3-col l4 m6 w3-margin-bottom">
+              <div class="w3-card-2 w3-center">
+                <img src="images/chico.jpg" width="200" height="200" alt="Francisco" >
+                <div class="w3-container">
+                  <h3>Francisco Matos</h3>
+                  <p class="w3-opacity">Product Manager</p>
+                  <p></p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> franciscomatos@ua.pt</button></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-col l4 m6 w3-margin-bottom">
+              <div class="w3-card-2 w3-center">
+                <img src="images/tiago.jpg" width="200" height="200" alt="Tiago" >
+                <div class="w3-container">
+                  <h3>Tiago Cardoso</h3>
+                  <p class="w3-opacity">Infrastucture Manager</p>
+                  <p></p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> t.cardoso@ua.pt</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="w3-col l4 m6 w3-margin-bottom">
+              <div class="w3-card-2 w3-center">
+                <img src="images/jose.jpg" width="200" height="200" alt="José" >
+                <div class="w3-container">
+                  <h3>José Ribeiro</h3>
+                  <p class="w3-opacity">Infrastucture Manager</p>
+                  <p></p>
+                  <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> josepribeiro@ua.pt</button></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+                        //-->
+
+
+
+            </div>
+
+
+    </div>
    
 
 </body>
