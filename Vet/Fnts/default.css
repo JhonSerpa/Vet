@@ -33,8 +33,7 @@ p {
     line-height: 180%;
 }
 
-strong {
-}
+
 
 a {
     color: #2C383B;
@@ -277,8 +276,6 @@ ul.contact {
         background: #86bd3b;
     }
 
-    .button:active {
-    }
 
 .button-big {
     padding: 1.6em 4em;
@@ -396,9 +393,6 @@ ul.contact {
             color: #FFF;
         }
 
-        #menu li:hover a, #menu li.active a, #menu li.active span {
-        }
-
     #menu .current_page_item a {
         color: #8dc63f;
     }
@@ -416,9 +410,6 @@ ul.contact {
 }
 
 
-
-#banner-wrapper {
-}
 
 #banner {
     overflow: hidden;
@@ -606,11 +597,6 @@ ul.contact {
     position: relative;
 }
 
-    #slider .button {
-    }
-
-        #slider .button:hover {
-        }
 
     #slider .viewer {
         width: 1000px;
@@ -771,8 +757,6 @@ ul.contact {
     }
 
 
-.extra2 {
-}
 
 
 .margin-btm {
