@@ -78,7 +78,10 @@
     <Content Include="Fnts\default.css" />
     <Content Include="Fnts\Fonts.css" />
     <Content Include="Html\Client.html" />
+    <Content Include="Html\Developer.html" />
+    <Content Include="Html\Specification.html" />
     <Content Include="Html\Team.html" />
+    <Content Include="Html\Timeline.html" />
     <Content Include="Imgs\ana.png" />
     <Content Include="Imgs\carlos.png" />
     <Content Include="Imgs\joao.png" />
