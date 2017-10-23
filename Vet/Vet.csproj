@@ -82,6 +82,7 @@
     <Content Include="Html\Specification.html" />
     <Content Include="Html\Team.html" />
     <Content Include="Html\Timeline.html" />
+    <Content Include="Html\User.html" />
     <Content Include="Imgs\ana.png" />
     <Content Include="Imgs\carlos.png" />
     <Content Include="Imgs\joao.png" />
