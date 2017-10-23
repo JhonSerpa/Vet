@@ -259,21 +259,15 @@ ul.contact {
 /*********************************************************************************/
 
 .button {
-    display: inline-block;
-    padding: 1.3em 3em;
-    background: #8dc63f;
-    -moz-transition: opacity 0.25s ease-in-out;
-    -webkit-transition: opacity 0.25s ease-in-out;
-    -o-transition: opacity 0.25s ease-in-out;
-    -ms-transition: opacity 0.25s ease-in-out;
-    transition: opacity 0.25s ease-in-out;
-    letter-spacing: 0.20em;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #FFF;
+    display: inline-block;
+    font-size: 16px;
 }
-
     .button:hover {
         background: #86bd3b;
     }
